@@ -1,0 +1,159 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Belleza', sans-serif;
+}
+
+.navbar-brand {
+	letter-spacing: 3px;
+}
+
+.navbar-main {
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid #eee;}
+
+.navbar-main a {
+	color: #000;
+	margin-bottom: 0rem;
+	margin: 5px 0px;
+}
+
+.navbar-main a:hover {
+	color: #b68b60;
+}
+
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus {
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    border: 2px solid #765f4e;
+    border-radius: 0rem;
+   	height: 40px;
+    width: 40px;
+}
+
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+    background-color: #7c6556bf;
+}
+
+.display-4 {
+    font-size: 33px;
+}
+
+
+/*----------------------Custom Scrollbar-------------------*/
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #c2c2c28f;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(160, 112, 112, 0.91);    /* color of the scroll thumb */
+  border-radius: 0px;       /* roundness of the scroll thumb */
+}
+
+.splash {
+    background-image: url(../assets/images/splash.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 450px;
+}
+
+.splash-opacity {
+	background: #0000007d;
+    min-height: inherit;
+}
+
+.tagline {
+	font-family: 'Belleza', sans-serif;
+}
+
+
+.tagline-top {
+	font-size: 13px;
+	color: #F8F9FA;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.splash .btn {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    background-color: rgb(105, 79, 53);
+    border-color: rgb(45, 42, 39);
+    outline: none;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    visibility: inherit;
+    transition: background-color 0.4s ease;
+    text-align: inherit;
+    margin: 0px;
+    border: 0px;
+    padding: 5px 22px;
+    border-radius: 0px;
+}
+
+.splash .btn:hover, 
+.splash .btn:focus, 
+.splash .btn:active,
+.splash .btn-outline-secondary:active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active {
+    background: rgb(233, 228, 223);
+    border-color: rgb(233, 228, 223);
+    color: #000;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active:focus, 
+.btn-outline-secondary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-outline-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.about-us-content {
+	padding: 100px 0px;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.about-us .heading {
+	font-size: 2.3rem;
+	margin-bottom: 0rem!important;
+}
+
+.about-us {
+	background-image: url(../assets/images/about2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.about-us p {
+	color: #6a6560;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0rem 3rem;
+}
+
+.about-us h6 {
+	font-size: .8rem;
+}
+
+button:focus {
+    outline: 0px;
+}
+
