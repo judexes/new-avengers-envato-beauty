@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .splash-opacity {
@@ -88,12 +88,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
-    background-color: rgb(105, 79, 53);
-    border-color: rgb(45, 42, 39);
-    outline: none;
-    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(45, 42, 39);    outline: none;
+    box-shadow: rgb(0, 0, 0, 0) 0px 0px 0px 0px;
     box-sizing: border-box;
     cursor: pointer;
     visibility: inherit;
@@ -110,9 +109,10 @@ body::-webkit-scrollbar-thumb {
  .btn:active,
  .btn-outline-secondary:active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active {
-    background: rgb(233, 228, 223);
-    border-color: rgb(233, 228, 223);
-    color: #000;
+    background: rgb(96, 70, 40);
+    border-color: rgb(107, 81, 52);
+    color: #fff;
+    box-shadow: rgb(0, 0, 0, 0) 0px 0px 0px 0px;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, 
