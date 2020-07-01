@@ -1,7 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
-html {
+html { 
 	scroll-behavior: smooth;
 }
 
@@ -131,7 +131,7 @@ body::-webkit-scrollbar-thumb {
 
 .about-us .heading {
 	font-size: 2.3rem;
-	margin-bottom: 0rem!important;
+	margin-bottom: .7rem!important;
 }
 
 .about-us {
@@ -152,6 +152,34 @@ body::-webkit-scrollbar-thumb {
 .about-us h6 {
 	font-size: .8rem;
 }
+
+.about-us .btn, 
+.about-us .btn:active, 
+.about-us .btn:focus {
+    background: rgb(96, 70, 40);
+    border-color: rgb(107, 81, 52);
+    color: #fff;
+    box-shadow: rgb(0, 0, 0, 0) 0px 0px 0px 0px;
+        border: 1px solid;
+    cursor: pointer;
+    visibility: inherit;
+    transition: background-color 0.4s ease;
+
+}
+
+.about-us .btn:hover {
+    background: transparent;
+    border: 1px solid;
+    border-color: rgb(96, 70, 40);
+    color: rgb(96, 70, 40);
+    box-shadow: rgb(0, 0, 0, 0) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    visibility: inherit;
+    transition: background-color 0.4s ease;
+
+}
+
 
 button:focus {
     outline: 0px;
