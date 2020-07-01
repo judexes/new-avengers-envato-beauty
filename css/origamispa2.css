@@ -61,6 +61,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 0px;       /* roundness of the scroll thumb */
 }
 
+button:focus {
+    outline: 0px;
+}
+
 .splash {
     background-image: url(../assets/images/splash.png);
     background-repeat: repeat-y;
@@ -180,8 +184,35 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-
-button:focus {
-    outline: 0px;
+.our-services .service {
+    margin: 0rem 2rem 0rem 2rem;
+    min-height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
+.our-services .service-1 {
+    background-image: url(../assets/images/spa-retreat.jpg);
+}
+.our-services .service-2 {
+    background-image: url(../assets/images/spa-treatment.jpg);
+}
+.our-services .service-3 {
+    background-image: url(../assets/images/aesthetics.jpg);
+}
+.our-services .service-4 {
+    background-image: url(../assets/images/facials.jpg);
+}
+.our-services .service-5 {
+    background-image: url(../assets/images/body-treatment.jpg);
+}
+.our-services .service-6 {
+    background-image: url(../assets/images/massage.jpg);
+}
+
+.our-services p {
+    color: #fff;
+    padding: 50px 0px 40px;
+}
