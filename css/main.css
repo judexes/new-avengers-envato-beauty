@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.splash .btn {
+.btn {
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     background-color: rgb(105, 79, 53);
@@ -105,10 +105,10 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0px;
 }
 
-.splash .btn:hover, 
-.splash .btn:focus, 
-.splash .btn:active,
-.splash .btn-outline-secondary:active,
+ .btn:hover, 
+ .btn:focus, 
+ .btn:active,
+ .btn-outline-secondary:active,
 .btn-outline-secondary:not(:disabled):not(.disabled):active {
     background: rgb(233, 228, 223);
     border-color: rgb(233, 228, 223);
