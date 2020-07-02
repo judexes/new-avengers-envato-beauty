@@ -76,7 +76,9 @@ body::-webkit-scrollbar-thumb {
     background: rgba(1, 112, 113, 0.05);
 }
 
-.about-us-image {}
+.about-us-image {
+    
+}
 
 
 @media (min-width: 768px) and (max-width: 991px) {
