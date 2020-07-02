@@ -94,7 +94,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 100px;
     max-height: 100px;
     border-radius: 50%;
-    padding:15px;
+    padding:10px;
     border: 2px solid #FF8870;
 }
 
@@ -109,6 +109,13 @@ body::-webkit-scrollbar-thumb {
       width: 100%;
     }
   }
+
+.services-icons {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+
 
 
 @media (min-width: 768px) and (max-width: 991px) {
