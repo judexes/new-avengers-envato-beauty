@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     position: relative;
     min-height: 400px;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .shade {
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     position: relative;
     min-height: 400px;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .about-us-section {
@@ -76,7 +76,15 @@ body::-webkit-scrollbar-thumb {
     background: rgba(1, 112, 113, 0.05);
 }
 
-.about-us-image {
+.about-us img {
+    width: 70%;
+}
+
+.about-us {
+    margin-top: 4rem;
+}
+
+.about-us-description {
     
 }
 
