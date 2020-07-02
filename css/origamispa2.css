@@ -31,8 +31,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar-main {
-    background: rgb(255, 255, 255);
-    border-bottom: 1px solid #eee;}
+    background: #017071;
+    border-bottom: none;
+}
 
 .navbar-main a {
     color: #000;
@@ -44,15 +45,39 @@ body::-webkit-scrollbar-thumb {
     color: #b68b60;
 }
 
-.splash {
+.user img {
+    height: 70%;
+}
+
+.top-background-image {
     background-image: url(../assets/images/splash.png);
     background-repeat: repeat-y;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     min-height: 400px;
+    margin-bottom: 5rem;
 }
+
+.shade {
+    background-image: url(../assets/images/shade.png);
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 400px;
+    margin-bottom: 5rem;
+}
+
+.about-us-section {
+    min-height: 450px;
+    background: rgba(1, 112, 113, 0.05);
+}
+
+.about-us-image {}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Show 4th slide on md if col-md-4*/
