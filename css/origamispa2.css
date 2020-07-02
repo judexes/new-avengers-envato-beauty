@@ -85,7 +85,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-us-description {
-    
+    max-width: 350px;
+    margin-bottom: 4rem;
+
 }
 
 
