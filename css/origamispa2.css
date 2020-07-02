@@ -1,3 +1,59 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Belleza', sans-serif;
+}
+
+
+/*----------------------Custom Scrollbar-------------------*/
+
+body::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #c2c2c28f;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(160, 112, 112, 0.91);    /* color of the scroll thumb */
+  border-radius: 0px;       /* roundness of the scroll thumb */
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+}
+
+.navbar-main {
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid #eee;}
+
+.navbar-main a {
+    color: #000;
+    margin-bottom: 0rem;
+    margin: 5px 0px;
+}
+
+.navbar-main a:hover {
+    color: #b68b60;
+}
+
+.splash {
+    background-image: url(../assets/images/splash.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 400px;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
     /* Show 4th slide on md if col-md-4*/
     .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
