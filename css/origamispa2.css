@@ -48,9 +48,18 @@ body::-webkit-scrollbar-thumb {
     color: #b6feff;
 }
 
-.user img {
-    height: 70%;
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
 }
+
+.navbar-toggler {
+    padding: .25rem .45rem;
+    border: 2px solid;
+    border-radius: 0rem;
+    border-color: rgba(255, 255, 255, 0.2);
+
+}
+
 
 .top-background-image {
     background-image: url(../assets/images/splash.png);
