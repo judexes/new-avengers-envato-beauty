@@ -15,15 +15,18 @@ body {
 
 /*----------------------Custom Scrollbar-------------------*/
 
+
 body::-webkit-scrollbar {
-  width: 5px;               /* width of the entire scrollbar */
+    width: 6px;               /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
-  background: #c2c2c28f;        /* color of the tracking area */
+    background: #01707100;  
+        /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(160, 112, 112, 0.91);    /* color of the scroll thumb */
-  border-radius: 0px;       /* roundness of the scroll thumb */
+    background-color: rgba(1, 112, 113, 0.48);    /* color of the scroll thumb */
+    border-radius:50%;           /* roundness of the scroll thumb */
+    margin-right:1px;     
 }
 
 .navbar-brand {
@@ -36,13 +39,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar-main a {
-    color: #000;
+    color: #fff;
     margin-bottom: 0rem;
     margin: 5px 0px;
 }
 
 .navbar-main a:hover {
-    color: #b68b60;
+    color: #b6feff;
 }
 
 .user img {
