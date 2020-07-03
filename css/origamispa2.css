@@ -101,6 +101,12 @@ body::-webkit-scrollbar-thumb {
     max-width: 350px;
 }
 
+.services-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+}
+
 .services img {
     max-width: 100px;
     max-height: 100px;
