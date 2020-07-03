@@ -73,6 +73,9 @@ body::-webkit-scrollbar-thumb {
 
 .about-us-section {
     background: rgba(1, 112, 113, 0.05);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
 }
 
 .about-us img {
@@ -80,13 +83,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-us {
-    margin-top: 4rem;
 }
 
 .about-us-description {
     max-width: 350px;
-    margin-bottom: 4rem;
-
 }
 
 .services img {
@@ -122,10 +122,25 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 0rem;
 }
 
+.our-products img {
+    width: 70%;
+}
+
+.our-products {
+}
+
+.our-products-description {
+    max-width: 350px;
+    margin-bottom: 4rem;
+}
+
 .product-section {
     background: rgba(1, 112, 113, 0.05);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 
 }
+
 
 
 @media (min-width: 768px) and (max-width: 991px) {
