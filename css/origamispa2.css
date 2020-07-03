@@ -108,9 +108,8 @@ body::-webkit-scrollbar-thumb {
       width: 100%;
     }
 
-    
     p.card-title{
-        font-size:10px;
+        font-size:12px;
     }
   }
 
