@@ -107,6 +107,11 @@ body::-webkit-scrollbar-thumb {
     .services img {
       width: 100%;
     }
+
+    
+    p.card-title{
+        font-size:10px;
+    }
   }
 
 .services-icons {
