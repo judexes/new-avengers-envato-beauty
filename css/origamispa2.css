@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
     margin-right:1px;     
 }
 
-.navbar-brand {
+.navbar-brand, title {
     letter-spacing: 3px;
 }
 
