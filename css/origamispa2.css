@@ -168,8 +168,13 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+.product-icons {
+    padding: .8rem;
+}
+
 .product-icons img {
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 
