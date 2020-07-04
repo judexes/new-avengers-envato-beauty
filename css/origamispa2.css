@@ -150,6 +150,7 @@ body::-webkit-scrollbar-thumb {
 
 .our-products img {
     width: 70%;
+    margin-bottom: 3rem;
 }
 
 .our-products {
