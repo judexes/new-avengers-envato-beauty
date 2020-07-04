@@ -91,6 +91,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-us img {
+    height: 100%;
     width: 70%;
 }
 
