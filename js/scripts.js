@@ -1,12 +1,12 @@
-
-$('#carouselExample').on('slide.bs.carousel', function (e) {
-
-  
+$('#carousel-example').on('slide.bs.carousel', function (e) {
+    /*
+        CC 2.0 License Iatek LLC 2018 - Attribution required
+    */
     var $e = $(e.relatedTarget);
     var idx = $e.index();
-    var itemsPerSlide = 4;
+    var itemsPerSlide = 5;
     var totalItems = $('.carousel-item').length;
-    
+ 
     if (idx >= totalItems-(itemsPerSlide-1)) {
         var it = itemsPerSlide - (totalItems - idx);
         for (var i=0; i<it; i++) {
@@ -22,21 +22,25 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 });
 
 
-  $('#carouselExample').carousel({ 
-                interval: 2000
-        });
+// -------------------
 
 
-  $(document).ready(function() {
-/* show lightbox when clicking a thumbnail */
-    $('a.thumb').click(function(event){
-      event.preventDefault();
-      var content = $('.modal-body');
-      content.empty();
-        var title = $(this).attr("title");
-        $('.modal-title').html(title);        
-        content.html($(this).html());
-        $(".modal-profile").modal({show:true});
-    });
+$(".project-detail").slick({
+	slidesToShow: 1,
+	arrows: false,
+	asNavFor: '.project-strip',
+	autoplay: true,
+	autoplaySpeed: 3000
+});
 
-  });
+$(".project-strip").slick({
+	slidesToShow: 5,
+	slidesToScroll: 1,
+	arrows: false,
+	asNavFor: '.project-detail',
+	dots: false,
+	infinite: true,
+	centerMode: true,
+	focusOnSelect: true
+});
+//# sourceURL=pen.js
