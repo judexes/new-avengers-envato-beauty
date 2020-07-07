@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .top-background-image {
-    background-image: url(../assets/images/splash.png);
+    background-image: url(../img/splash.jpg);
     background-repeat: repeat-y;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .shade {
-    background-image: url(../assets/images/shade.png);
+    background-image: url(../img/shade.png);
     background-repeat: repeat-y;
     background-position: bottom;
     background-repeat: no-repeat;
