@@ -149,6 +149,10 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 0rem;
 }
 
+.card {
+    border: 0px;
+}
+
 .our-products {
 }
 
